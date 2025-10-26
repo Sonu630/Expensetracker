@@ -1,0 +1,38 @@
+.head{
+    height:9vh;
+    background-color:#758A93;
+    display: flex;
+    justify-content: flex-end;
+    width :100vw;
+}
+.headitem{
+    color: rgb(255, 255, 255);  
+      text-decoration: none;
+}
+.headitem:hover{
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 2px 5px;
+    
+    transition: 0.3s all ease-in-out;
+
+}
+
+@media screen and (max-width:600px){
+    .headitem{
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    
+}
+@media screen and (min-width:601px){
+    .headitem{
+        margin-right: 30px;
+        font-size: 20px;
+    }
+    .bb{
+        font-size:22px;
+    }
+    
+}
